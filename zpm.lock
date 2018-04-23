@@ -1,0 +1,69 @@
+{
+  "definition": "./",
+  "optionals": [],
+  "private": {
+    "modules": [ {
+      "definition": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "hash": "2a324c0a911bae32ea5aaa021452424851afc5f1",
+      "name": "Zefiros-Software/Defaults",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
+          "hash": "a6f06bf2fd3b832822cd4e9e554b7d47f32ec084",
+          "name": "Zefiros-Software/GoogleTest",
+          "repository": "https://github.com/google/googletest.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head || ^1.0.0"
+        }, {
+          "definition": "https://github.com/Zefiros-Software/GoogleBenchmark.git",
+          "hash": "64d4805dd7861fa265e3d8f10efc056985d4e945",
+          "name": "Zefiros-Software/GoogleBenchmark",
+          "repository": "https://github.com/google/benchmark.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ]
+  },
+  "public": {
+    "libraries": [ {
+      "definition": "https://github.com/Zefiros-Software/Preproc.git",
+      "hash": "cfc72aa91d4c64cce80ae568bd35451ca0168fd9",
+      "name": "Zefiros-Software/Preproc",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/Predef.git",
+          "hash": "c8c26821b9ab850ace7bbaf0d22f347a1486ff6d",
+          "name": "Zefiros-Software/Predef",
+          "repository": "https://github.com/boostorg/predef.git",
+          "tag": "boost-1.67.0",
+          "version": "1.67.0",
+          "versionRequirement": ">1.65.0 || @head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/Preproc.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    }, {
+      "definition": "https://github.com/Zefiros-Software/Fmt.git",
+      "hash": "135ab5cf71ed731fc9fa0653051e7d4884a3652f",
+      "name": "Zefiros-Software/Fmt",
+      "repository": "https://github.com/fmtlib/fmt.git",
+      "tag": "4.1.0",
+      "version": "4.1.0",
+      "versionRequirement": ">=4.1.0"
+    }, {
+      "definition": "https://github.com/Zefiros-Software/Date.git",
+      "hash": "e7e1482087f58913b80a20b04d5c58d9d6d90155",
+      "name": "Zefiros-Software/Date",
+      "repository": "https://github.com/HowardHinnant/date.git",
+      "tag": "v2.4.1",
+      "version": "2.4.1",
+      "versionRequirement": ">=2.2.0"
+    } ]
+  },
+  "repository": "./"
+}

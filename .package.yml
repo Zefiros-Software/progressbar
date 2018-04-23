@@ -1,0 +1,12 @@
+development:
+  modules:
+  - name: Zefiros-Software/Defaults
+    version: '@head'
+public:
+  libraries:
+    - name: Zefiros-Software/Preproc
+      version: '@head'
+    - name: Zefiros-Software/Fmt
+      version: '>=4.1.0'
+    - name: Zefiros-Software/Date
+      version: '>=2.2.0'

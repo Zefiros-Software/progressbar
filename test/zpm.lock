@@ -1,0 +1,47 @@
+{
+  "definition": "./",
+  "optionals": [],
+  "private": {
+    "libraries": [ {
+      "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
+      "hash": "2cf2a1f8ce9e25a2c0d053a51a3e67b3621f025b",
+      "name": "Zefiros-Software/GoogleTest",
+      "repository": "https://github.com/google/googletest.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    }, {
+      "definition": "../",
+      "hash": "c4c54f891ab05cfc411ec5c2ed147dd4cad1ccf3",
+      "name": "Zefiros-Software/progressbar",
+      "repository": "https://github.com/doches/progressbar.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ],
+    "modules": [ {
+      "definition": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "hash": "2a324c0a911bae32ea5aaa021452424851afc5f1",
+      "name": "Zefiros-Software/Defaults",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
+          "hash": "2cf2a1f8ce9e25a2c0d053a51a3e67b3621f025b",
+          "name": "Zefiros-Software/GoogleTest",
+          "repository": "https://github.com/google/googletest.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head || ^1.0.0"
+        }, {
+          "definition": "https://github.com/Zefiros-Software/GoogleBenchmark.git",
+          "hash": "9913418d323e64a0111ca0da81388260c2bbe1e9",
+          "name": "Zefiros-Software/GoogleBenchmark",
+          "repository": "https://github.com/google/benchmark.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ]
+  },
+  "repository": "./"
+}
